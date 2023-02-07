@@ -1,0 +1,27 @@
+Velocity: 0.1
+0: Size
+1: Speed        (Calculates the speed of the object) 
+2: ColorR1
+3: ColorR2
+4: ColorG1
+5: ColorG2
+6: ColorB1
+7: ColorB2
+
+Movement: 0.2
+8: percentChangeOrientation
+
+
+
+
+3: percentChangeLeft
+4: percentChangeRight
+5: percentReturn
+5: percentReturnEnnemies
+6: percentReturnAllies
+7: percentReturnAll
+8: percentChangeEnnemies
+9: percentChangeAllies
+10: percentMaxBabies
+11: NeedEnergy
+12: GiveEnergy
