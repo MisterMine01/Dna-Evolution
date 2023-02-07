@@ -4,7 +4,7 @@ class Gene:
     value: chr = None
 
     def __init__(self) -> None:
-        pass
+        self.value = None
 
     def __add__(self, other):
         new_gene = Gene()
@@ -16,9 +16,6 @@ class Gene:
     
     def mutate(self):
         self.value = chr(random.randint(32, 126))
-    
-    def __str__(self) -> str:
-        return self.value
     
     def to_int(self) -> int:
         return ord(self.value) - 32

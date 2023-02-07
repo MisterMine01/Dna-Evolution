@@ -10,9 +10,11 @@ Velocity: 0.1
 
 Movement: 0.2
 8: percentChangeOrientation
+9: OrientationMovement
 
-
-
+MakeBabies: 0.3
+10: percentMakeBabies
+11: Sex
 
 3: percentChangeLeft
 4: percentChangeRight
